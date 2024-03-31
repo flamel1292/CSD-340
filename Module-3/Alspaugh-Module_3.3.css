@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    font-weight: 500;
+}
+
+#left, #right{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#left{
+    border-style: solid;
+}
+
+#right{
+    border-style: dashed;
+}
+
+ol, ul{
+    font-weight: 300;
+    list-style-position: inside;
+}
+
+ul{
+    list-style: upper-roman inside;
+}
+
+#bottom{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 60%;
+}
+
+#bottom a{
+    float: right;
+}
+
+a:hover{
+    text-decoration: underline;
+}
