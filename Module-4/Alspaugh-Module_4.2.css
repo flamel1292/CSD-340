@@ -1,0 +1,29 @@
+#container{
+    text-align: center;
+}
+
+#image-gallery div{
+    margin-top: 10%;
+    border-style: solid;
+}
+
+#image-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+img{
+    height: 480px;
+    width: 360px;
+}
+
+figcaption{
+    font-style: italic;
+    font-size: .75em;
+}
+
+a{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

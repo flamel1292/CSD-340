@@ -39,7 +39,9 @@ ul{
 }
 
 #bottom a{
-    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 a:hover{
